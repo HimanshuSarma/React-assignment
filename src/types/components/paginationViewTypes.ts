@@ -29,7 +29,7 @@ interface PaginationProps {
   paginationListItemFilterHandler: (searchQuery: string, paginatedListItem: any) => void,
   getData: (pageNo: number, limit: number) => Array<any>,
   searchQuery?: string,
-  updateSearchQuery?: Function,
+  updateSearchQuery?: (value: string) => void,
   showSearchBar: boolean,
 };
 
