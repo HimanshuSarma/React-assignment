@@ -1,0 +1,7 @@
+.primary-btn {
+  padding: 1rem 1.5rem;
+  background-color: var(--primary-pink);
+  color: white;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}

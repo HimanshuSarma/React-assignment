@@ -1,0 +1,33 @@
+p {
+  height: 100%;
+  margin: 0;
+}
+
+button {
+  height: 1.75rem;
+}
+
+.pagination-btn {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid white;
+}
+
+.pagination-btn-disabled {
+  opacity: 0.2;
+  cursor: not-allowed !important;
+}
+
+.pagination-btn-enabled {
+  opacity: 1;
+}
+
+.paginated-list-item-container {
+  padding: 0.5rem 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagination-search-bar {
+  padding: 0.35rem 0.65rem;
+  border-radius: 0.25rem;
+}

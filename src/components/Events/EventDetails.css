@@ -1,0 +1,130 @@
+.active {
+  background-color: var(--primary-pink);
+  color: white;
+}
+
+.inactive {
+  background-color: transparent;
+  color: var(--primary-pink);
+}
+
+.tab-btn {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--primary-pink);
+}
+
+.event-details-section-2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.event-details-section-2-event-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.event-details-timings {
+  display: flex;
+  gap: 2rem;
+  border: 2px solid var(--primary-pink);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.event-details-section-3 {
+}
+
+.section-2-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.section-2-btn {
+  color: var(--primary-pink);
+  font-weight: 600;
+}
+
+.section-3-flex-container-left-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-3-flex-container-left-flex-container-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--primary-pink);
+  border-radius: 0.25rem;
+}
+
+.section-3-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-3-flex-container-left {
+  width: 30%;
+  background-color: var(--primary-dark-color);
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+}
+
+.section-3-flex-container-right {
+  width: 65%;
+}
+
+.section-3-flex-container-right-title {
+  margin-top: 0;
+}
+
+.section-3-flex-container-left-item-left {
+  display: flex;
+  gap: 1rem;
+}
+
+.active-meeting-room {
+  background-color: var(--primary-pink);
+  color: white;
+}
+
+.inactive-meeting-room {
+  background-color: var(--primary-dark-color);
+  color: white;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid var(--primary-pink);
+}
+
+.event-details-save-section {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-details-vc-container {
+  border: 1px solid var(--primary-pink);
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  box-sizing: border-box;
+  background-color: var(--primary-dark-color);
+  color: white;
+}
+
+.event-details-vc-container-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.event-details-vc-container-table-thead {
+  border-bottom: 1px solid var(--primary-pink);
+}

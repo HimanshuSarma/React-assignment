@@ -1,0 +1,54 @@
+:root {
+  --primary-pink: #D175B6;
+  --primary-dark-color: #080407;
+  --primary-blue-color: #2C2379;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, var(--primary-dark-color), rgb(44, 2, 31), var(--primary-blue-color), rgb(44, 2, 31), var(--primary-dark-color));
+  background-repeat: no-repeat;
+  background-size: 15000px;
+  min-height: 100vh;
+  color: white;
+  animation-name: background-image-animation;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  background-position: top left;
+  font-family: Montserrat;
+}
+
+main {
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.fs-30 {
+  font-size: 1.875rem;
+}
+
+@keyframes background-image-animation {
+  0% {
+    background-position: top left;
+  
+  }
+  25% {
+    background-position: top right;
+  }
+  50% {
+    background-position: bottom right;
+  }
+  75% {
+    background-position: bottom left;
+  }  
+  100% {
+    background-position: top left;
+  }
+}

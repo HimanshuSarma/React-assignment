@@ -1,0 +1,21 @@
+.directory-details-root {
+}
+
+.directory-details {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.active-file {
+  border: 1px solid var(--primary-pink);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  color: var(--primary-pink);
+}
+
+.inactive-file {
+  color: white;
+}
